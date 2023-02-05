@@ -31,7 +31,13 @@ p {
   cursor: pointer;
 }
 
-/* countryListElement */
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
 .country-list {
   font: inherit;
   font-size: 20px;
@@ -39,41 +45,34 @@ p {
   list-style-type: none;
 }
 
+.country-list li {
+  width: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
 .country-list img{
-  width: 5%;
-  height: 5%;
+  width: 50%;
+  height: 50%;
   display: flex;
   display: inline;
 }
 
-.country-list h4 {
- display: flex; 
- display: inline;
- margin-left: 15px;
-}
-
-
-/* countrInfoDetails */
 .country-info {
-  font: inherit;
-  font-size: 28px;
-  font-weight: 800;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(236,233,233);
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
-.country-info img{
-  width: 5%;
-  height: 5%;
-  display: inline;
+.country-info img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
 }
 
-.country-info h3 {
- display: flex; 
- display: inline;
- margin-left: 15px;
-}
-
-.country-info .bold {
-  font: inherit;
-  font-size: 20px;
-  font-weight: 800;
+.bold {
+  font-weight: bold;
 }
